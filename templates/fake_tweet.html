@@ -1,0 +1,8 @@
+{% extends "partials/_head.html" %}
+{% from "partials/_tweet.html" import tweet %}
+{% block content %}
+    <div class="container">
+    <button class="btn btn-outline-success my-2 my-sm-0" id="search">Regenerate</button>
+    {{ tweet(username=username,name=name, picture=picture, body=body, verified=verified) }}
+    </div>
+{% endblock %}

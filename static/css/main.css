@@ -1,0 +1,68 @@
+body {
+    background: #080b0f;
+}
+.tweet {
+    border-radius: 8px;
+    background: #15202b;
+    min-height: 250px;
+    position: relative;
+    top: 60px!important;
+    margin-top: 20px;
+    left: 50%;
+    width: 640px;
+    padding: 30px 40px;
+    margin-left: -320px;
+}
+.form-control {
+    border: 1px solid #38444d;
+    background: #182430;
+    margin-right: 10px;
+    color: #8899a6;
+    border-radius: 21px;
+}
+#search {
+    border-radius: 21px;
+    background: #1B7FBE;
+    border: 1px solid #1da1f2;
+    color: white;
+    font-weight: bold;
+}
+.form-control:focus {
+    background: #182430;
+    color: white;
+}
+/*Will clean up with SASS*/
+.about {
+    margin-bottom: 15px;
+}
+
+.navbar-dark {
+    background: #1c2938;
+    border-bottom: 1px solid rgba(0,0,0,0.05);
+}
+
+.profile-pic {
+    border-radius: 50%;
+    max-width: 49px;
+    display: inline-block;
+}
+.profile-name {
+    display: inline-block;
+    color: white;
+}
+.profile-main {
+    display: inline-block;
+}
+.username {
+    font-size: 15px;
+    font-weight: 400;
+    color: rgba(169, 169, 169, 0.76);
+}
+.verified {
+    width: 1em;
+    display: inline;
+    float: right;
+    fill: white !important;
+    margin-top: 5px;
+    vertical-align: center;
+}
